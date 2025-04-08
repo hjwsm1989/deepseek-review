@@ -61,8 +61,6 @@ runs:
       uses: hjwsm1989/setup-nu@main
       with:
         version: 0.103.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.TEST_DS_CR }}
 
     - name: DeepSeek Code Review
       shell: nu {0}
